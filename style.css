@@ -60,3 +60,41 @@ font-style: italic;
     border: 2px solid  #050505;
     text-align: center;
   }
+
+  form{
+    margin-top: 20px;
+    background-color:white;
+    padding: 20px;
+    width: 50%;
+    border: 5px solid #c1d410;
+  }
+
+  label{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px;
+
+  }
+
+  input{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 100%;
+  }
+
+textarea{
+  padding: 5px;
+  width: 100%;
+}
+
+
+input[type="submit"]{
+  padding: 8px;
+  color: white;
+  background-color: blue;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 800;
+  align-self: center;
+}
